@@ -1,0 +1,240 @@
+body {
+	position:static;
+    background: url(imagens/topo_fundo.jpg) repeat-x #718f6b;
+    
+	padding: 0px;
+}
+
+#brilho {
+ background: url(imagens/topo_fundo.jpg) repeat-x #718f6b;
+ }
+
+.container { 
+	width: 900px; 
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+#logo {
+	padding: 0;
+}
+
+img{border: none;}
+
+
+/* Menu
+ ------------------------------------------------ */
+
+#menu {
+	height: 30px;
+	text-align: center;
+	background: url(imagens/fume.png) repeat;
+	padding-top: 11px;
+}
+
+.item-menu {
+	display: inline;
+	text-align: center;
+	font-family: "Arial";
+	font-size: 18px;
+	padding: 0 10px 0 10px;
+}
+
+.item-menu a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* Área de conteúdo da página
+ ------------------------------------------------ */
+
+#conteudo {
+	width: auto;
+	padding: 20px;
+	background: #ffffff;
+	font-family: Arial;
+    margin-bottom: 20px;
+}
+
+#conteudo h1 {
+	color: #4d4d4d;
+	clear:both;
+}
+
+#conteudo h2 {
+	font-size: 20px;
+	color: #4d4d4d;
+	margin-top: 35px;
+	clear:both;
+}
+
+#conteudo p {
+	font-size: 14px;
+	line-height: 24px;
+	text-align: justify;
+}
+
+/* Menu lateral
+ ------------------------------------------------ */
+#menu-lateral {
+	float:left;
+	width: 165px;
+	height: 300px;
+	padding-top: 26px;
+	border-right: 1px solid #bfbfbf;
+	margin-right: 25px;
+	
+}
+
+#menu-lateral a {
+	text-decoration: none;
+	color: #4d4d4d;
+	line-height: 35px;
+	font-size: 16px;
+}
+
+#menu-lateral a:hover {
+	color: #158615;
+}
+
+/* Pagina - restrito ao conteúdo próprio de cada página
+ ------------------------------------------------ */
+.pagina {
+	position:relative;
+	float:left;
+	width: 669px;
+}
+
+/* Trabalhos
+ ------------------------------------------------ */
+
+#area-artigos {
+	width: auto;
+	clear:right;
+}
+
+#area-artigos a {
+	text-decoration: none;
+}
+
+.artigo {
+	float:left;
+	width: 392px;
+	height: 92px;
+	text-align: center;
+	margin: 3px;
+	padding: 10px;
+	border: 2px solid #afafaf;
+}
+
+.mini-curso{
+    float: left;
+    width: 800px;
+    height: 45px;
+    text-align: center;
+    margin: 3px;
+    padding: 10px;
+    border: 2px solid #afafaf;
+}
+
+.titulo {
+	font-family: "Verdana";
+	font-size: 13px;
+	font-weight: bold;
+	color: #4d4d4d;
+}
+
+.autor {
+	font-family: "Verdana";
+	font-size: 12px;
+	color: #7d7d7d;
+}
+
+.email {
+	font-family: "Verdana";
+	font-size: 10px;
+	color: #7d7d7d;
+}
+
+.instituicao {
+	font-family: "Verdana";
+	font-size: 10px;
+	color: #7d7d7d;
+}
+
+/* Organização
+ ------------------------------------------------ */
+.grupo-org {
+	clear:both;
+	display:table;
+	width: 700px;
+	height: auto;
+}
+
+.membro {
+	float:left;
+	height: 144px;
+	width: 334px;
+}
+
+.foto-org {
+	float:left;
+}
+
+.nome-org {
+	padding-top: 70px;
+	font-weight: bold;
+}
+
+.org-org {
+	font-size: 14px;
+}
+
+/* Instituições
+ ------------------------------------------------ */
+
+#instituicoes {
+	clear: both;
+	width: auto;
+	height: auto;
+	padding: 4px 0 30px 0;
+	background: #ffffff;
+}
+
+.bloco1 {
+	float: left;
+	width: auto;
+	height: auto;
+	margin: 0 20px 30px 0;
+}
+
+.bloco2 {
+	clear: both;
+	float: left;
+	width: auto;
+	height: auto;
+	margin: 0 20px 30px 0;
+}
+
+.titulos-sidebar {
+	padding-left: 20px;
+	padding-right: 15px;
+	margin: 0px 0px 15px 0px;
+	font-weight:bold;
+	color: #5a5a5a;
+}
+
+.imagens-sidebar {
+	text-align: center;
+	display: inline;
+	padding-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.ic-title{
+    padding-top: 25px;
+}

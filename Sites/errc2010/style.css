@@ -1,0 +1,100 @@
+body {
+	position:static;
+	background: #718f6b;
+	padding: 0px;
+    margin: 0px;
+    font-family: "Arial";
+}
+
+#brilho {
+	background: url(paginas/imagens/topo_fundo.jpg) repeat-x #718f6b;
+}
+
+.container { 
+	width: 900px; 
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+#logo {
+	padding: 0px 0px 40px 0;
+}
+
+#menu {
+	height: 30px;
+	text-align: center;
+	background: url(paginas/imagens/fume.png) repeat;
+	padding-top: 11px;
+	margin-bottom: 50px;
+}
+
+.item-menu {
+	display: inline;
+	text-align: center;
+	font-family: "Arial";
+	font-size: 18px;
+	padding: 0 12px 0 12px;
+	
+}
+
+.item-menu a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* Instituições
+ ------------------------------------------------ */
+
+#instituicoes {
+	clear: both;
+	width: auto;
+	height: auto;
+	padding: 25px 0 30px 0;
+	background: #ffffff;
+    
+}
+
+.bloco1 {
+	float: left;
+	width: auto;
+	height: auto;
+	margin: 0 20px 30px 0;
+}
+
+.bloco2 {
+	clear: both;
+	float: left;
+	width: auto;
+	height: auto;
+	margin: 0 20px 30px 0;
+}
+
+img{border: none;}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.titulos-sidebar {
+	padding-left: 20px;
+	padding-right: 15px;
+	margin: 0px 0px 15px 0px;
+	font-weight:bold;
+	color: #5a5a5a;
+}
+
+.imagens-sidebar {
+	text-align: center;
+	display: inline;
+	padding-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
